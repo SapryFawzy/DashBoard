@@ -1382,6 +1382,10 @@ a {
     margin: 0;
   }
 
+  .sidebar__btns {
+    gap: 28px;;
+  }
+
   .sidebar__btns button {
     padding: 0;
   }
@@ -1538,6 +1542,10 @@ a {
       "chart"
       "bank-account"
       "visa-cards";
+  }
+
+  #summaryCards {
+    margin-block: 20px;
   }
 
   #summaryCards .card__content {
