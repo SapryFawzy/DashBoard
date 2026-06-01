@@ -1,0 +1,1559 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+  color: #101828;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+span,
+a {
+  display: inline-block;
+}
+
+.color-white {
+  color: #fff;
+}
+
+.color-black {
+  color: #000;
+}
+
+.color-orange {
+  color: #f54900;
+}
+
+.color-dark-orange {
+  color: #9f2d00;
+}
+
+.color-blue {
+  color: #155dfc;
+}
+
+.color-dark-blue {
+  color: #193cb8;
+}
+
+.color-pink {
+  color: #e60076;
+}
+
+.color-dark-pink {
+  color: #6e11b0;
+}
+
+.color-red {
+  color: #e7000b;
+}
+
+.color-light-dark-red {
+  color: #991b1b;
+}
+
+.color-dark-red {
+  color: #9f0712;
+}
+
+.color-dark-yellow {
+  color: #d08700;
+}
+
+.color-purple {
+  color: #4f39f6;
+}
+
+.color-dark-purple {
+  color: #372aac;
+}
+
+.color-blue-green {
+  color: #0092b8;
+}
+
+.color-dark-blue-green {
+  color: #005f78;
+}
+
+.color-light-green {
+  color: #00c950;
+}
+
+.color-green {
+  color: #00a63e;
+}
+
+.color-light-dark-green {
+  color: #166534;
+}
+
+.color-dark-green {
+  color: #267f4f;
+}
+
+.color-darker-green {
+  color: #009966;
+}
+
+.color-darkest-green {
+  color: #006045;
+}
+
+.color-gray {
+  color: #6a7282;
+}
+
+.color-dark-gray {
+  color: #4a5565;
+}
+
+.bg-black {
+  background: #000;
+}
+
+.bg-white {
+  background: #fff;
+}
+
+.bg-gray {
+  background: #f9fafb;
+}
+
+.bg-light-green {
+  background: #dbfce7;
+}
+
+.bg-dark-green {
+  background: #d0fae5;
+}
+
+.bg-light-yellow {
+  background: #fef9c2;
+}
+
+.bg-light-orange {
+  background: #ffedd4;
+}
+
+.bg-lighter-blue {
+  background: #eff6ff;
+}
+
+.bg-light-blue {
+  background: #dbeafe;
+}
+
+.bg-pink {
+  background: #fce7f3;
+}
+
+.bg-light-pink {
+  background: #f3e8ff;
+}
+
+.bg-light-red {
+  background: #ffe2e2;
+}
+
+.bg-light-purple {
+  background: #e0e7ff;
+}
+
+.bg-light-blue-green {
+  background: #cefafe;
+}
+
+.container {
+  margin: auto;
+}
+
+.d-grid {
+  display: grid;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-space-between {
+  justify-content: space-between;
+}
+
+.align-items {
+  align-items: center;
+}
+
+.flex-direction-column {
+  flex-direction: column;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.p-32 {
+  padding: 32px;
+}
+
+.p-24 {
+  padding: 24px;
+}
+
+.p-16 {
+  padding: 16px;
+}
+
+.p-12 {
+  padding: 12px;
+}
+
+.p-6 {
+  padding: 6px;
+}
+
+.ms-250 {
+  margin-right: 250px;
+}
+
+.gap-20 {
+  gap: 20px;
+}
+
+.gap-15 {
+  gap: 15px;
+}
+
+.lg-font {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+.sm-font {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.gray-border-1 {
+  border: 1px solid #e5e7eb;
+}
+
+.border-radius-8 {
+  border-radius: 8px;
+}
+
+.border-radius-10 {
+  border-radius: 10px;
+}
+
+.border-radius-15 {
+  border-radius: 15px;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
+.z-index-1 {
+  z-index: 1;
+}
+
+.head {
+  margin-bottom: 16px;
+}
+
+.head h2 {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 600;
+}
+
+.head button {
+  background: transparent;
+  border: none;
+  font-weight: 500;
+  font-size: inherit;
+  line-height: inherit;
+  transition: color 0.3s;
+}
+
+.head button:hover {
+  color: #101828;
+}
+
+.w-h-40 {
+  width: 40px;
+  height: 40px;
+}
+
+.square-40 {
+  width: 40px;
+  height: 40px;
+}
+
+.scrollbar::-webkit-scrollbar {
+  width: 12px;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  width: 10px;
+  background: #e2e1e1;
+  border-radius: 8px;
+  border: 3px solid #fff;
+  transition: background 0.3s;
+}
+
+.scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #636363;
+}
+
+.shadow {
+  box-shadow: 0 1px 3px 0 #d4d4d4;
+}
+
+/* side bar */
+
+#sidebar {
+  position: fixed;
+  overflow-y: auto;
+  top: 0;
+  right: 0;
+  width: 250px;
+  height: 100dvh;
+  gap: 30px;
+  border-left: 1px solid #e5e7eb;
+  box-shadow: 1px 1px 3px 0 #d4d4d4;
+}
+
+.sidebar__btns h2,
+.sidebar__links {
+  font-weight: 600;
+}
+
+.sidebar__links {
+  font-size: 16px;
+  line-height: 24px;
+  gap: 8px;
+}
+
+.active {
+  border: 1px solid #dbeafe;
+}
+
+.sidebar__links li {
+  padding: 12px 16px;
+  cursor: pointer;
+}
+
+.sidebar__links li a {
+  gap: 10px;
+}
+
+.sidebar__btns h2,
+.sidebar__btns button {
+  font-size: 14px;
+}
+
+.sidebar__btns h2 {
+  color: #364153;
+}
+
+.sidebar__btns button {
+  color: #111827;
+  font-weight: 500;
+  line-height: 21px;
+  border: none;
+  background: transparent;
+  text-align: start;
+}
+
+.sidebar__btns span {
+  font-size: 14px;
+  margin-left: 14px;
+}
+
+.sidebar__btns button:hover,
+.sidebar__links li:hover {
+  background: #f9fafb;
+}
+
+.sidebar__btns button:hover {
+  transform: translateX(4px);
+}
+
+.sidebar__links li {
+  transition: background 0.3s;
+}
+
+.sidebar__btns button {
+  transition:
+    background 0.3s,
+    transform 0.3s;
+}
+
+/* header */
+
+#header {
+  background: linear-gradient(to left, #f6f9fd, #ffffff, #f4f8fd);
+}
+
+.header__user-content {
+  flex-grow: 1;
+  justify-content: end;
+}
+
+.header__user-info {
+  padding: 6px 16px;
+  gap: 10px;
+  box-shadow: 0 1px 3px 0 #d4d4d4;
+  transition: box-shadow 0.3s;
+  border-radius: 12px;
+}
+
+.header__user-info:hover {
+  box-shadow: 0 3px 3px 0 #e0e2e5;
+}
+
+.header__user-info img {
+  width: 40px;
+  border: 2px solid #f3f4f6;
+}
+
+.header__logo-text p,
+.header__btns-inner span,
+.header__user-info .account-type,
+.header__user-info .user-name {
+  font-weight: 600;
+}
+
+.header__btns {
+  padding: 10px;
+}
+
+.header__btns {
+  gap: 10px;
+}
+
+.header__btns button {
+  width: 38px;
+  height: 38px;
+  font-size: 16px;
+  padding: 10px 8px;
+  border-radius: 10px;
+  background: transparent;
+}
+
+.header__btns span {
+  top: -5px;
+  right: -5px;
+  background: #fb2c36;
+  width: 16px;
+}
+
+.header__logo {
+  background: linear-gradient(to bottom right, #2456f6, #4036dd);
+  font-size: 20px;
+  width: 56px;
+  height: 56px;
+  box-shadow: 0 5px 10px 3px #cbdffd;
+}
+
+.header__logo-text p {
+  margin-top: 4px;
+}
+
+.header__user-status {
+  background: #f0fdf4;
+  color: #07ca55;
+  border: 1px solid #dbfce7;
+  font-weight: 500;
+  padding: 6px 12px;
+  border-radius: 8px;
+}
+
+.header__user-status i {
+  font-size: 8px;
+}
+
+/* summaryCards */
+
+#summaryCards {
+  margin-block: 40px 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#summaryCards .card {
+  gap: 8px;
+}
+
+#summaryCards .card__review,
+#summaryCards .card__title {
+  font-weight: 600;
+}
+
+/* dashboardWidgets */
+
+#dashboardWidgets {
+  grid-template-columns: repeat(12, 1fr);
+
+  grid-template-areas:
+    "info-cards info-cards info-cards info-cards transaction-table transaction-table transaction-table transaction-table transaction-table transaction-table transaction-table transaction-table"
+    "info-cards info-cards info-cards info-cards transaction-table transaction-table transaction-table transaction-table transaction-table transaction-table transaction-table transaction-table"
+    "bills bills bills bills transaction-table transaction-table transaction-table transaction-table transaction-table transaction-table transaction-table transaction-table"
+    "bills bills bills bills transaction-table transaction-table transaction-table transaction-table transaction-table transaction-table transaction-table transaction-table"
+    "over-view over-view over-view over-view chart chart chart chart visa-cards visa-cards visa-cards visa-cards"
+    "over-view over-view over-view over-view bank-account bank-account bank-account bank-account visa-cards visa-cards visa-cards visa-cards"
+    "over-view over-view over-view over-view . . . . . . . .";
+}
+
+.transaction-table {
+  grid-area: transaction-table;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.info-cards {
+  grid-area: info-cards;
+}
+
+.bills {
+  grid-area: bills;
+}
+
+.over-view {
+  grid-area: over-view;
+}
+
+.chart {
+  grid-area: chart;
+}
+
+.bank-account {
+  grid-area: bank-account;
+}
+
+.visa-cards {
+  grid-area: visa-cards;
+}
+
+/* transaction-table */
+
+.transaction-table__data {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.transaction-table__data th {
+  padding: 12px 8px;
+  font-weight: inherit;
+  text-align: inherit;
+}
+
+.transaction-table__data thead tr {
+  border-bottom: 1px solid #f3f4f6;
+}
+
+.info-cards .info-card__btn,
+.transaction-table__data tbody tr {
+  border-top: 1px solid #f3f4f6;
+}
+
+.transaction-table__data td {
+  padding: 16px 8px;
+}
+
+.transaction-table__data .image {
+  width: 40px;
+  height: 40px;
+  margin-left: 12px;
+}
+
+.transaction-table__data .type,
+.transaction-table__data .status,
+.transaction-table__data .info .name {
+  font-weight: 500;
+}
+
+.transaction-table__data .date,
+.transaction-table__data .amount,
+.transaction-table__data .info .description {
+  font-weight: 600;
+}
+
+.transaction-table__data .type,
+.transaction-table__data .status {
+  padding: 3px 10px;
+}
+
+/* info-cards */
+
+.info-cards .card {
+  padding: 12px;
+  gap: 12px;
+}
+
+.info-cards .card__info {
+  flex-grow: 1;
+}
+
+.info-cards .card__icon {
+  width: 32px;
+  height: 32px;
+  margin-top: 2px;
+  font-size: 14px !important;
+}
+
+.info-cards h3 {
+  font-weight: 700;
+  font-size: inherit;
+  margin-bottom: 4px;
+}
+
+.info-cards p {
+  margin-bottom: 12px;
+}
+
+.info-cards p,
+.info-cards span {
+  font-weight: 600;
+}
+
+.info-cards .account-card {
+  border-left: 4px solid #3182ff;
+  background: #eff6ff;
+  margin-bottom: 12px;
+}
+
+.info-cards .visa-card {
+  background: #f0fdf4;
+  border-left: 4px solid #00c950;
+}
+
+.info-cards .info-card__btn {
+  margin-top: 16px;
+  padding-top: 16px;
+}
+
+.info-cards button {
+  background: transparent;
+  border: none;
+  color: #1447e6;
+  font-weight: 500;
+  font-size: inherit;
+  line-height: inherit;
+  transition: color 0.3s;
+}
+
+.info-cards button:hover {
+  color: #1246e0;
+}
+
+/* bills  */
+
+.bills .card-content__head {
+  margin-bottom: 18px;
+}
+
+.bills .main-title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.bills .card-content__body,
+.bills .sub-title {
+  font-weight: 600;
+}
+
+.bills .card {
+  flex: 1 50%;
+}
+
+.bills .card__inner {
+  border: 1px solid #f3f4f6;
+}
+
+.bills .card__icon {
+  margin: 0 auto 8px;
+  width: 32px;
+  height: 32px;
+  border-radius: 10px;
+}
+
+.bills .card__amount {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* over-view */
+
+.over-view__cards .card {
+  background: #fcfcfd;
+  transition:
+    background 0.3s,
+    transform 0.3s,
+    box-shadow 0.3s;
+}
+
+.over-view__cards .card:hover {
+  background: #f5f6f8;
+  transform: translateY(-1px);
+  box-shadow: 0 3px 5px 0 #d4d4d4;
+}
+
+.over-view__cards .totle-card {
+  border: 1px solid #dbeafe;
+  padding: 16px 16px 24px;
+  margin-bottom: 10px;
+}
+
+.over-view__cards h3 {
+  font-size: 14px;
+}
+
+.over-view__cards .amount,
+.over-view__cards .title,
+.over-view__cards h3 {
+  font-weight: 500;
+}
+
+.over-view__cards .title,
+.over-view__cards .totle-amount,
+.over-view__cards .card__summery,
+.over-view__cards .card__amount {
+  font-weight: 600;
+}
+
+.over-view__cards .totle-card .totle-amount {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  color: #1c398e;
+}
+
+.over-view__cards .card__content,
+.over-view__cards .card__amount {
+  width: fit-content;
+  margin-right: auto;
+}
+
+.over-view__cards .totle-card .amount {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.over-view__cards .card__summery {
+  margin-block: 12px 4px;
+}
+
+.over-view__cards .card__summery::before,
+.over-view__cards .card__summery::after {
+  content: "";
+  position: absolute;
+  height: 8px;
+  border-radius: 20px;
+  top: 20px;
+}
+
+.over-view__cards .card__summery::before {
+  width: 100%;
+  background: #e5e7eb;
+}
+
+.over-view__cards .card__summery::after {
+  width: 82.5%;
+  background: linear-gradient(to right, #2e7eff, #6160ff);
+}
+
+.over-view__cards .progress-bar {
+  width: 100%;
+  height: 8px;
+  background: #e5e7eb;
+}
+
+.over-view__cards .progress-bar::after {
+  content: "";
+  position: absolute;
+  height: 8px;
+  border-radius: 20px;
+}
+
+.over-view__cards .progress-bar.orange::after {
+  width: 50%;
+  background: #ff6900;
+}
+
+.over-view__cards .progress-bar.red::after {
+  width: 100%;
+  background: #fb2c36;
+}
+
+.over-view__cards .progress-bar.pink::after {
+  width: 80%;
+  background: #f6339a;
+}
+
+.over-view__cards .progress-bar.green::after {
+  width: 86%;
+  background: #00c950;
+}
+
+.over-view__cards .title,
+.over-view__cards .square-40 {
+  font-size: 16px;
+}
+
+.over-view__cards .totle-card .title {
+  font-size: 14px;
+}
+
+.over-view__cards .square-40 {
+  margin-left: 12px;
+}
+
+.over-view__cards .title,
+.over-view__cards .title {
+  line-height: 24px;
+}
+
+.over-view__cards .card__content {
+  margin-block: 8px;
+}
+
+.over-view__card .amount {
+  padding: 2px 8px;
+  margin-top: 4px;
+}
+
+/* chart */
+
+.chart__body span,
+.chart__head {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+}
+
+.chart__body,
+.chart-content {
+  flex-grow: 1;
+}
+
+.chart__head {
+  gap: 35px;
+  margin-bottom: 40px;
+}
+
+.chart__head .outcome::before,
+.chart__head .income::before {
+  content: "";
+  position: absolute;
+  height: 12px;
+  width: 12px;
+  border-radius: 2px;
+  top: 4px;
+  right: -21px;
+}
+
+.chart__body .income-chart,
+.chart__head .income::before {
+  background: #10b981;
+}
+
+.chart__body .outcome-chart,
+.chart__head .outcome::before {
+  background: #ef4444;
+}
+
+.chart__body {
+  justify-content: space-around;
+  padding-block: 16px;
+}
+
+.chart__body .chart-column {
+  justify-content: end;
+}
+
+.chart__body .charts {
+  gap: 2px;
+  height: 100%;
+}
+
+.chart__body .charts div {
+  width: 16px;
+  align-self: flex-end;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.chart__body .w-1 .income-chart {
+  height: 95px;
+}
+
+.chart__body .w-2 .income-chart {
+  height: 98px;
+}
+
+.chart__body .w-3 .income-chart {
+  height: 96px;
+}
+
+.chart__body .w-4 .income-chart {
+  height: 95px;
+}
+
+.chart__body .outcome-chart::after,
+.chart__body .income-chart::after {
+  position: absolute;
+  padding: 4px;
+  font-size: 12px;
+  border: 1px solid #000;
+  top: 50%;
+  background: #fff;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s;
+}
+
+.chart__body .income-chart::after {
+  width: 87px;
+  right: -83px;
+}
+
+.chart__body .outcome-chart::after {
+  width: 97px;
+  right: -90px;
+}
+
+.chart__body .w-1 .income-chart::after {
+  content: "Income: $950";
+}
+
+.chart__body .w-1 .outcome-chart::after {
+  content: "Expenses: $420";
+}
+
+.chart__body .w-2 .income-chart::after {
+  content: "Income: $980";
+}
+
+.chart__body .w-4 .outcome-chart::after,
+.chart__body .w-2 .outcome-chart::after {
+  content: "Expenses: $450";
+}
+
+.chart__body .w-3 .income-chart::after {
+  content: "Income: $920";
+}
+
+.chart__body .w-3 .outcome-chart::after {
+  content: "Expenses: $380";
+}
+
+.chart__body .w-4 .income-chart::after {
+  content: "Income: $964";
+}
+
+.chart__body .charts div {
+  transition: background 0.3s;
+}
+
+.chart__body .income-chart:hover {
+  background: #40c79a;
+}
+
+.chart__body .outcome-chart:hover {
+  background: #f26969;
+}
+
+.chart__body .income-chart:hover::after,
+.chart__body .outcome-chart:hover::after {
+  opacity: 1;
+}
+
+.chart__body .w-1 .outcome-chart {
+  height: 42px;
+}
+
+.chart__body .w-2 .outcome-chart,
+.chart__body .w-4 .outcome-chart {
+  height: 45px;
+}
+
+.chart__body .w-3 .outcome-chart {
+  height: 38px;
+}
+
+.chart__body span {
+  margin-top: 8px;
+}
+
+/* bank-account */
+
+.bank-account__cards .card {
+  flex: 1 50%;
+}
+
+.bank-account__cards span.color-red,
+.bank-account__cards .balance,
+.bank-account__cards .card__info span,
+.bank-account__cards .square-40 {
+  font-size: 16px;
+}
+
+.bank-account__cards .square-40 {
+  margin-left: 10px;
+}
+
+.bank-account__cards .balance,
+.bank-account__cards .card__info-title {
+  line-height: 24px;
+}
+
+.bank-account__cards .card__info span {
+  font-weight: 500;
+}
+.bank-account__cards span.color-red,
+.bank-account__cards .balance,
+.bank-account__cards .card__info span {
+  line-height: 24px;
+}
+
+.bank-account__cards .balance,
+.bank-account__cards .card__info span {
+  color: #101828;
+}
+
+.bank-account__cards p {
+  font-weight: 600;
+  color: #64748b;
+}
+
+.bank-account__cards span.color-red,
+.bank-account__cards .balance {
+  font-weight: 600;
+  margin-right: auto;
+}
+
+/* visa-cards */
+
+.visa-cards .scene {
+  perspective: 1000px;
+}
+
+.visa-cards .card-front,
+.visa-cards .card {
+  transform-style: preserve-3d;
+}
+
+.visa-cards .card {
+  will-change: transform;
+  min-height: 200px;
+  transition: transform 0.6s;
+}
+
+.visa-cards .card:hover {
+  transform: rotateY(180deg);
+}
+
+.visa-cards .card-face {
+  inset: 0;
+  backface-visibility: hidden;
+}
+
+.visa-cards .card-back {
+  transform: rotateY(180deg);
+}
+
+.visa-cards .visa .card-front {
+  background: #372aac;
+}
+
+.visa-cards .mastercard .card-front {
+  background: #c70036;
+}
+
+.visa-cards .paypal .card-front {
+  background: #193cb8;
+}
+
+.visa-cards .visa .card-front::after {
+  content: "أساسية";
+  position: absolute;
+  font-size: 12px;
+  backdrop-filter: blur(8px);
+  padding: 5px 10px;
+  border-radius: 20px;
+  background: rgba(221, 221, 221, 0.144);
+  left: 10px;
+  top: 10px;
+  z-index: 1;
+}
+
+.visa-cards .card-front {
+  padding: 28px;
+}
+
+.visa-cards .card-front__head span {
+  font-size: 30px;
+}
+
+.visa-cards .rectangle {
+  background: rgba(221, 221, 221, 0.247);
+  width: 50px;
+  height: 32px;
+}
+
+.visa-cards .rectangle::after {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 16px;
+  border-radius: 4px;
+  background: #f8f9fa6b;
+}
+
+.visa-cards .card-front__head {
+  margin-block: 2px 35px;
+}
+
+.visa-cards .card-back__foot .square-40,
+.visa-cards .card-front__content .text,
+.visa-cards .card-front__content p {
+  font-weight: 700;
+}
+
+.visa-cards .card-front__content .text,
+.visa-cards .card-front__content p {
+  margin-bottom: 10px;
+}
+
+.visa-cards .card-front__content p {
+  gap: 12px;
+}
+
+.visa-cards .card-front__content .text {
+  font-size: 18px;
+}
+
+.visa-cards .card-front__content .num {
+  font-size: 20px;
+}
+
+.visa-cards .card-front__content .dotes {
+  font-size: 25px;
+}
+
+.visa-cards .card-front__content .value {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.visa-cards .card-back {
+  padding: 16px;
+  background: #091123;
+}
+
+.visa-cards .card-back__head {
+  height: 40px;
+  background: linear-gradient(to right, #020202, #292929);
+}
+
+.visa-cards .card-back .visa-num,
+.visa-cards .card-back__head {
+  border-radius: 3px;
+}
+
+.visa-cards .card-back p {
+  margin-block: 6px;
+  font-size: 11px;
+}
+
+.visa-cards .card-back .visa-num {
+  padding: 5px 15px;
+  gap: 5px;
+}
+
+.visa-cards .card-back .visa-num div {
+  height: 10px;
+  flex-grow: 1;
+  background: linear-gradient(to right, #e3e6e8, #c8cacd, #e3e6e8);
+}
+
+.visa-cards .card-back__foot {
+  margin-right: auto;
+  width: fit-content;
+  margin-top: 10px;
+}
+
+.visa-cards .card-back__foot .title {
+  color: #d1d5dc;
+}
+
+.visa-cards .card-back__foot .square-40 {
+  color: #091123;
+  font-size: 16px;
+  line-height: 24px;
+  width: 55px;
+}
+
+/* Media Query */
+
+/* lg */
+@media screen and (min-width: 1200px) {
+  .lg-15 {
+    width: 15%;
+  }
+
+  .lg-20 {
+    width: 20%;
+  }
+
+  .lg-25 {
+    width: 25%;
+  }
+
+  .lg-30 {
+    width: 30%;
+  }
+
+  .lg-33 {
+    width: 33%;
+  }
+
+  .lg-40 {
+    width: 40%;
+  }
+
+  .lg-50 {
+    width: 50%;
+  }
+
+  .lg-60 {
+    width: 60%;
+  }
+
+  .lg-70 {
+    width: 70%;
+  }
+
+  .lg-75 {
+    width: 75%;
+  }
+
+  .lg-80 {
+    width: 80%;
+  }
+
+  .lg-85 {
+    width: 85%;
+  }
+
+  .lg-100 {
+    width: 100%;
+  }
+}
+
+/* md */
+@media screen and (max-width: 1200px) {
+  .md-20 {
+    width: 20%;
+  }
+
+  .md-25 {
+    width: 25%;
+  }
+
+  .md-30 {
+    width: 30%;
+  }
+
+  .md-33 {
+    width: 33%;
+  }
+
+  .md-40 {
+    width: 40%;
+  }
+
+  .md-50 {
+    width: 50%;
+  }
+
+  .md-60 {
+    width: 60%;
+  }
+
+  .md-70 {
+    width: 70%;
+  }
+
+  .md-75 {
+    width: 75%;
+  }
+
+  .md-80 {
+    width: 80%;
+  }
+
+  .md-100 {
+    width: 100%;
+  }
+
+  #sidebar .header__logo,
+  #sidebar {
+    width: fit-content;
+  }
+
+  #sidebar {
+    padding: 12px;
+  }
+
+  #sidebar .header__logo {
+    height: fit-content;
+    padding: 10px 6px;
+  }
+
+  #sidebar h2,
+  #sidebar .header__logo-text,
+  #sidebar .text {
+    display: none;
+  }
+
+  .sidebar__links {
+    padding-bottom: 10px;
+  }
+
+  .sidebar__links li {
+    padding: 12px 8px;
+  }
+
+  .sidebar__btns span {
+    margin: 0;
+  }
+
+  .sidebar__btns button {
+    padding: 0;
+  }
+
+  #mainContent {
+    margin-right: 68px;
+  }
+
+  #summaryCards .card__content {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  #dashboardWidgets {
+    grid-template-areas:
+      "info-cards info-cards info-cards info-cards info-cards info-cards chart chart chart chart chart chart"
+      "transaction-table transaction-table transaction-table transaction-table transaction-table transaction-table transaction-table transaction-table transaction-table transaction-table transaction-table transaction-table"
+      "transaction-table transaction-table transaction-table transaction-table transaction-table transaction-table transaction-table transaction-table transaction-table transaction-table transaction-table transaction-table"
+      "bills bills bills bills bills bills bank-account bank-account bank-account bank-account bank-account bank-account"
+      "over-view over-view over-view over-view over-view over-view visa-cards visa-cards visa-cards visa-cards visa-cards visa-cards"
+      "over-view over-view over-view over-view over-view over-view visa-cards visa-cards visa-cards visa-cards visa-cards visa-cards"
+      "over-view over-view over-view over-view over-view over-view . . . . . . ";
+  }
+
+  .transaction-table {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .transaction-table__data td,
+  .transaction-table__data th {
+    padding: 8px 18px;
+  }
+
+  .transaction-table__data .type,
+  .transaction-table__data .status {
+    padding: 2px 10px;
+  }
+
+  .bank-account__cards .card {
+    flex-wrap: wrap;
+  }
+
+  .bank-account__cards .card__content {
+    width: 100%;
+  }
+}
+
+/* sm */
+@media screen and (max-width: 767px) {
+  .sm-20 {
+    width: 20%;
+  }
+
+  .sm-25 {
+    width: 25%;
+  }
+
+  .sm-30 {
+    width: 30%;
+  }
+
+  .sm-33 {
+    width: 33%;
+  }
+
+  .sm-40 {
+    width: 40%;
+  }
+
+  .sm-50 {
+    width: 50%;
+  }
+
+  .sm-60 {
+    width: 60%;
+  }
+
+  .sm-70 {
+    width: 70%;
+  }
+
+  .sm-75 {
+    width: 75%;
+  }
+
+  .sm-80 {
+    width: 80%;
+  }
+
+  .sm-100 {
+    width: 100%;
+  }
+
+  #header .user-info__text,
+  #sidebar {
+    display: none;
+  }
+
+  #mainContent {
+    margin: 0;
+    padding: 16px 16px 32px;
+  }
+
+  .header__user-info img {
+    width: 36px;
+  }
+
+  .header__btns button {
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
+  }
+
+  .header__logo {
+    width: 48px;
+    height: 48px;
+    font-size: 18px;
+  }
+  .header__logo-content p,
+  .header__user-status {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .header__user-status {
+    order: 3;
+  }
+
+  .header__user-info {
+    padding: 6px 10px;
+  }
+
+  .header__logo-content h1 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .header__user-content {
+    justify-content: space-between;
+  }
+
+  #dashboardWidgets,
+  #summaryCards {
+    grid-template-columns: 1fr;
+  }
+
+  #dashboardWidgets {
+    grid-template-areas:
+      "info-cards"
+      "transaction-table"
+      "bills"
+      "over-view"
+      "chart"
+      "bank-account"
+      "visa-cards";
+  }
+
+  #summaryCards .card__content {
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+  .bank-account__cards .card {
+    flex-wrap: nowrap;
+  }
+
+  .bank-account__cards .card__content {
+    width: fit-content;
+  }
+
+  .visa-cards .card {
+    min-height: 220px;
+  }
+}
