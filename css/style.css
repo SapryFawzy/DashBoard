@@ -1486,6 +1486,7 @@ a {
 
   .header__btns span {
     width: 12px;
+    height: 12px;
   }
 
   .header__logo {
