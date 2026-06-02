@@ -337,14 +337,14 @@ a {
 }
 
 .scrollbar::-webkit-scrollbar {
-  width: 12px;
+  width: 10px;
 }
 
 .scrollbar::-webkit-scrollbar-thumb {
-  width: 10px;
+  width: 5px;
   background: #e2e1e1;
   border-radius: 8px;
-  border: 3px solid #fff;
+  border: 2px solid #fff;
   transition: background 0.3s;
 }
 
@@ -367,7 +367,7 @@ a {
   height: 100dvh;
   gap: 30px;
   border-left: 1px solid #e5e7eb;
-  box-shadow: 1px 1px 3px 0 #d4d4d4;
+  box-shadow: 0 1px 3px 0 #d4d4d4;
 }
 
 .sidebar__btns h2,
