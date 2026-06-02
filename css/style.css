@@ -388,10 +388,15 @@ a {
 .sidebar__links li {
   padding: 12px 16px;
   cursor: pointer;
+  transition: background 0.3s;
 }
 
 .sidebar__links li a {
   gap: 10px;
+}
+
+.sidebar__btns {
+  margin-bottom: 30px
 }
 
 .sidebar__btns h2,
@@ -424,10 +429,6 @@ a {
 
 .sidebar__btns button:hover {
   transform: translateX(4px);
-}
-
-.sidebar__links li {
-  transition: background 0.3s;
 }
 
 .sidebar__btns button {
@@ -472,9 +473,6 @@ a {
 
 .header__btns {
   padding: 10px;
-}
-
-.header__btns {
   gap: 10px;
 }
 
@@ -608,6 +606,7 @@ a {
 
 .transaction-table__data .image {
   margin-left: 12px;
+  font-size: 14px;
 }
 
 .transaction-table__data .type,
@@ -703,8 +702,14 @@ a {
 }
 
 .bills .card-content__body,
-.bills .sub-title {
+.bills h4,
+.bills h3 {
   font-weight: 600;
+}
+
+.bills h3 {
+  font-size: inherit;
+  line-height: inherit;
 }
 
 .bills .card {
@@ -754,12 +759,10 @@ a {
 }
 
 .over-view__cards .amount,
-.over-view__cards .title,
 .over-view__cards h3 {
   font-weight: 500;
 }
 
-.over-view__cards .title,
 .over-view__cards .totle-amount,
 .over-view__cards .card__summery,
 .over-view__cards .card__amount {
@@ -853,7 +856,6 @@ a {
   margin-left: 12px;
 }
 
-.over-view__cards .title,
 .over-view__cards .title {
   line-height: 24px;
 }
@@ -926,6 +928,7 @@ a {
   align-self: flex-end;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
+  transition: background 0.3s;
 }
 
 .chart__body .w-1 .income-chart {
@@ -996,10 +999,6 @@ a {
   content: "Income: $964";
 }
 
-.chart__body .charts div {
-  transition: background 0.3s;
-}
-
 .chart__body .income-chart:hover {
   background: #40c79a;
 }
@@ -1036,9 +1035,8 @@ a {
   flex: 1 50%;
 }
 
-.bank-account__cards span.color-red,
 .bank-account__cards .balance,
-.bank-account__cards .card__info span,
+.bank-account__cards h3,
 .bank-account__cards .square-40 {
   font-size: 16px;
 }
@@ -1047,33 +1045,26 @@ a {
   margin-left: 10px;
 }
 
-.bank-account__cards .balance,
-.bank-account__cards .card__info-title {
-  line-height: 24px;
-}
-
-.bank-account__cards .card__info span {
+.bank-account__cards h3{
   font-weight: 500;
 }
-.bank-account__cards span.color-red,
-.bank-account__cards .balance,
-.bank-account__cards .card__info span {
-  line-height: 24px;
-}
 
 .bank-account__cards .balance,
-.bank-account__cards .card__info span {
+.bank-account__cards h3 {
+  line-height: 24px;
   color: #101828;
 }
 
+.bank-account__cards .balance,
 .bank-account__cards p {
   font-weight: 600;
+}
+
+.bank-account__cards p {
   color: #64748b;
 }
 
-.bank-account__cards span.color-red,
 .bank-account__cards .balance {
-  font-weight: 600;
   margin-right: auto;
 }
 
@@ -1543,6 +1534,10 @@ a {
   #summaryCards .card__content {
     font-size: 30px;
     line-height: 36px;
+  }
+
+  .transaction-table__data .image {
+    font-size: 12px;
   }
 
   .bank-account__cards .card {
