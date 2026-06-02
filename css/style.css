@@ -465,7 +465,7 @@ a {
 }
 
 .header__logo-text p,
-.header__btns-inner span,
+.header__btns span,
 .header__user-info .account-type,
 .header__user-info .user-name {
   font-weight: 600;
@@ -1482,6 +1482,10 @@ a {
     width: 30px;
     height: 30px;
     font-size: 14px;
+  }
+
+  .header__btns span {
+    width: 12px;
   }
 
   .header__logo {
