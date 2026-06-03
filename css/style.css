@@ -153,6 +153,10 @@ a {
   background: #f9fafb;
 }
 
+.bg-lightest-green {
+  background: #E5FAED;
+}
+
 .bg-light-green {
   background: #dbfce7;
 }
@@ -165,6 +169,10 @@ a {
   background: #fef9c2;
 }
 
+.bg-lightest-orange {
+  background: #FFF0E6;
+}
+
 .bg-light-orange {
   background: #ffedd4;
 }
@@ -175,6 +183,10 @@ a {
 
 .bg-light-blue {
   background: #dbeafe;
+}
+
+.bg-lightest-pink {
+  background: #EFE0FC;
 }
 
 .bg-pink {
@@ -420,6 +432,23 @@ a {
 .sidebar__btns span {
   font-size: 14px;
   margin-left: 14px;
+  transition: background 0.3s;
+}
+
+.sidebar__btns button:hover span.bg-lighter-blue {
+  background: #DBE8FC;
+}
+
+.sidebar__btns button:hover span.bg-lightest-green {
+  background: #D5F3E1;
+}
+
+.sidebar__btns button:hover span.bg-lightest-pink {
+  background: #EFE0FC;
+}
+
+.sidebar__btns button:hover span.bg-lightest-orange {
+  background: #FCE5D5;
 }
 
 .sidebar__btns button:hover,
