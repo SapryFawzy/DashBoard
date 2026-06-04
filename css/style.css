@@ -544,8 +544,17 @@ a {
 
 .header__user-status i {
   font-size: 8px;
+  animation: throb 1.5s infinite ease-in-out alternate;
 }
 
+@keyframes throb {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.3;
+  }
+}
 /* summaryCards */
 
 #summaryCards {
