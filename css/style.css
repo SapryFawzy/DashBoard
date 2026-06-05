@@ -999,13 +999,11 @@ a {
 }
 
 .chart__body .income-chart::after {
-  width: 87px;
-  right: -83px;
+  right: -85px;
 }
 
 .chart__body .outcome-chart::after {
-  width: 97px;
-  right: -90px;
+  right: -95px;
 }
 
 .chart__body .w-1 .income-chart::after {
